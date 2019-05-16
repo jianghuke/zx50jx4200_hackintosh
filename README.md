@@ -1,7 +1,8 @@
 # Asus ZX50J
 
 zx50jx4200_hackintosh
-华硕zx50jx4200 黑苹果Clover 可用于安装10.14.4
+华硕zx50jx4200 黑苹果Clover 可用于安装10.14.5
+
 ## 配置：
 
 CPU：i5-4200h
@@ -50,7 +51,11 @@ bios中关闭power off energy saving
 
 3.开启Hidpi 
 
-用RDM这个软件
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
+```
+
+然后用RDM调整分辨率(未提供下载)
 
 4.修复声卡输入 
 
